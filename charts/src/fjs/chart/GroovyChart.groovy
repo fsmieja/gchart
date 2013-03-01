@@ -21,7 +21,7 @@ import org.jfree.data.time.TimeSeries
 import org.jfree.data.time.TimeSeriesCollection
 import org.jfree.data.xy.XYDataset
 
-class FChart {
+class GroovyChart {
 
 	JFreeChart chart
 	 
@@ -159,7 +159,7 @@ class FChart {
 
 
 	static main(args) {
-		FChart chart = new FChart()
+		GroovyChart chart = new GroovyChart()
 		//chart.drawPie()
 		chart.drawTimeSeries()
 		File file = new File("c:/testjpg.jpg")
