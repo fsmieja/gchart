@@ -162,7 +162,7 @@ class GroovyChart {
 		GroovyChart chart = new GroovyChart()
 		//chart.drawPie()
 		chart.drawTimeSeries()
-		File file = new File("c:/testjpg.jpg")
-		ChartUtilities.saveChartAsJPEG(file, chart.chart, ChartPanel.DEFAULT_WIDTH, ChartPanel.DEFAULT_HEIGHT)
+		File file = new File("/home/fjs/testjpg.jpg")
+		//ChartUtilities.saveChartAsJPEG(file, chart.chart, ChartPanel.DEFAULT_WIDTH, ChartPanel.DEFAULT_HEIGHT)
 	}
 }
